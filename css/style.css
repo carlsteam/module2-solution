@@ -15,7 +15,7 @@ h2.chicken {
 }
 
 h2.beef {
-  background-color: darkred;
+  background-color: lightblue;
 }
 
 h2.sushi {
@@ -24,25 +24,18 @@ h2.sushi {
 
 p {
   clear: right;
+  padding: 14px;
 }
 
-#box
-{
-  box-sizing: border-box;
-  margin: 10px;
-  padding:10px;
-  background-color: #f1f1f1;
-  border: solid black 1px;
-}
 
 div > h2 {
   float:right;
   color: black;
-  box-sizing: border-box;
   border: 1px black solid;
   font-size: 125%;
-  margin: 2;
-  padding: 2;
+  margin: 0px;
+  padding: 10px;
+  
 }
 
 
@@ -50,6 +43,17 @@ div > h2 {
 section {
 
 }
+
+
+#box
+{
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px;
+  background-color: #f1f1f1;
+  border: solid white 10px;
+}
+
 
 
 /* Simple Responsive Framework. */
@@ -188,3 +192,5 @@ section {
     width: 100%;
   }
 }
+
+/* End Responsive Framework. */
